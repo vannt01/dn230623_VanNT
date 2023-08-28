@@ -1,0 +1,95 @@
+/* Css for page xu hướng nhà đẹp */
+
+.element.style {
+    background: url(https://pos.nvncdn.net/2b8c3f-116253/bn/20220322_vwvJEmbMpLder47yTXOxwW3N.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background{
+    width: 1920px;
+    height: 300px;
+}
+.blog-header {
+    padding: 80px 0;
+    min-height: 300px;
+}
+.blog-header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+.blog-header .top-page {
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* style for body image */
+.body-list-blog-page {
+    margin-top: 20px;
+    display: block;
+    box-sizing: border-box;
+
+}
+.newList .item-content {
+    border: 1px solid #eaeaea;
+    margin-bottom: 25px;
+}
+.newList .item-content .post-info-thumbnail {
+    position: relative;
+}
+.newList .item-content .post-info-thumbnail a.thumbnail {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    height: 280px;
+}
+.newList .item-content .post-info-thumbnail a img {
+    width: 100%;
+    height: 100%;
+}
+.newList .item-content .post-info-content {
+    padding: 20px;
+}
+.newList .item-content .post-info-content h3 {
+    opacity: 0.75;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 0;
+}
+.newList .item-content .post-info-content h3 a {
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+}
+.post-info-meta-top.post-info-meta {
+    display: inline-block;
+}
+.post-info-meta .entry-date:after {
+    content: "|";
+    margin-left: 10px;
+}
+.post-info-meta .entry-date {
+    color: #a79c99;
+}
+.post-info-meta .comments-count {
+    color: #a79c99;
+}
+.excerpt {
+    color: #666;
+    clear: both;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    min-height: 100px;
+}

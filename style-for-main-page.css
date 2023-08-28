@@ -1,0 +1,229 @@
+#root {
+    width: 100%;
+    height: 200%;
+}
+/* header */
+.padding-menu {
+    padding: 0px;
+}
+
+.slide-image {
+    height: 530px;
+}
+
+.text-center {
+    height: 200px;
+    padding-top: 30px;
+}
+
+.Banner-image {
+    width: 272px;
+    height: 272px;
+}
+
+.Banner-name {
+    text-transform: uppercase;
+    color: #4f4d4d;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding-top: 10px;
+}
+
+.box-StyleList {
+    padding: 50px 220px;
+    border-top: 1px solid #caa24b;
+    margin-top: 600px;
+    text-align: center;
+    display: block;
+}
+
+.box-StyleList .border-bottom {
+    height: 2px;
+    border-bottom: 2px solid #ff5733;
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.box-StyleList h2 {
+    text-transform: uppercase;
+    color: #666;
+}
+
+.box-StyleList p {
+    color: #666;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* .box-StyleList .buttonStyleList {
+    margin-top: 20px;
+    color: #666;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 8px 20px;
+    font-size: 11px;
+} */
+
+.box-StyleList .buttonStyleList {
+    margin-top: 20px;
+    color: #666;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 8px 20px;
+    font-size: 11px;
+}
+.buttonStyleList{
+    margin-top: 20px;
+    color: #666;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 8px 20px;
+    font-size: 11px;
+}
+.box-Sevice {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+}
+
+.box-Sevice .serviceItem {
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 100px;
+}
+
+.box-Sevice .serviceItem .imageSevice img {
+    width: 58px;
+}
+
+.box-Sevice .serviceItem .infoSevice .line {
+    height: 2px;
+    border-bottom: 2px solid #ff5733;
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.center-image {
+    width: 1240px;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.center-text {
+    /* padding: 50px 220px; */
+    border-top: 1px solid #caa24b;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+}
+
+.center-text .h1 {
+    color: #666;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.center-text .line-center {
+    height: 2px;
+    border-bottom: 2px solid #ff5733;
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* newList */
+
+.body-list-blog-page {
+    margin-top: 20px;
+    display: block;
+    box-sizing: border-box;
+
+}
+.newList .item-content {
+    border: 1px solid #eaeaea;
+    margin-bottom: 25px;
+}
+.newList .item-content .post-info-thumbnail {
+    position: relative;
+}
+.newList .item-content .post-info-thumbnail a.thumbnail {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    height: 280px;
+}
+.newList .item-content .post-info-thumbnail a img {
+    width: 100%;
+    height: 100%;
+}
+.newList .item-content .post-info-content {
+    padding: 20px;
+}
+.newList .item-content .post-info-content h3 {
+    opacity: 0.75;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 0;
+}
+.newList .item-content .post-info-content h3 a {
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+}
+.post-info-meta-top.post-info-meta {
+    display: inline-block;
+}
+.post-info-meta .entry-date:after {
+    content: "|";
+    margin-left: 10px;
+}
+.post-info-meta .entry-date {
+    color: #a79c99;
+}
+.post-info-meta .comments-count {
+    color: #a79c99;
+}
+.excerpt {
+    color: #666;
+    clear: both;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    min-height: 100px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 70%;
+    background: #454545;
+    display: flex;
+}
+.red-icon {
+    color: red; /* Thay đổi màu sắc tại đây */
+}
+.container .row .col-md-4{
+    font-family: 'Lexend', sans-serif;
+    color: #fff;
+}
+
